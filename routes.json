@@ -1,0 +1,11 @@
+[
+    {
+        "uri": "external-programs",
+        "method": "GET",
+        "action": "PageController",
+        "middleware": ["web", "auth"],
+        "params": {
+            "view": "pages.external-programs"
+        }
+    }
+]
