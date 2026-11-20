@@ -1,11 +1,13 @@
 [
     {
-        "uri": "external-programs",
+        "uri": "history-and-philosophy",
         "method": "GET",
         "action": "PageController",
-        "middleware": ["web", "auth"],
+        "middleware": ["web"],
         "params": {
-            "view": "pages.external-programs"
+            "view": "pages.history-and-philosophy",
+            "page_heading" : "History and Philosophy",
+            "page_title" : "History and Philosophy"
         }
     }
 ]
