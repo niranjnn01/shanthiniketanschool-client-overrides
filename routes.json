@@ -9,5 +9,16 @@
             "page_heading" : "History and Philosophy",
             "page_title" : "History and Philosophy"
         }
+    },
+    {
+        "uri": "founder",
+        "method": "GET",
+        "action": "PageController",
+        "middleware": ["web"],
+        "params": {
+            "view": "pages.founder",
+            "page_heading" : "Founder",
+            "page_title" : "Founder"
+        }
     }
 ]
