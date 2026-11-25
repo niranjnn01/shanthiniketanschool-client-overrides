@@ -74,3 +74,10 @@ Route::middleware(['auth'])->group(function () {
     });
 
 });
+
+
+
+
+Route::get('/history-and-philosophy', function () {
+    return view('client::history-and-philosophy');
+});
