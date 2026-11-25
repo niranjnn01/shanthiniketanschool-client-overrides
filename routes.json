@@ -20,5 +20,18 @@
             "page_heading" : "Founder",
             "page_title" : "Founder"
         }
+    },
+    {
+        "uri": "mandatory-disclosure",
+        "method": "GET",
+        "action": "CustomRoutesController",
+        "middleware": ["web"],
+        "params": {
+            "view": "pages.mandatory-disclosure",
+            "page_heading" : "Mandatory Disclosure",
+            "page_title" : "Mandatory Disclosure"
+        }
     }
+
+    
 ]

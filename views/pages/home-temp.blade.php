@@ -8,15 +8,16 @@
     
         <div class="flex flex-1 flex-col items-start justify-center px-4">
             
-            <h1 class="text-2xl">Welcome to <span class="font-bold">Shanthiniketan School</span></h1>
+            <h1 class="">Welcome to <span class="font-bold">Shanthiniketan School</span></h1>
             
-            <h2 class="mt-3 text-xl max-w-xl">A Loving Family of Happy Learners and High Achievers</h2>
+            <p class="mt-3 text-xl mb-10">A Loving Family of Happy Learners and High Achievers</p>
 
 
-            <p>Admissions Open – 
+            <p class="text-xl ">Admissions Open – 
 
-              <x-alpine.button
-                class="bg-primary text-white px-6 py-3 rounded-lg cursor-pointer"
+              <x-alpine.button 
+                variant="success"
+                size="xl"
                 @click="$store.modal.open('admission-enquiry')"
             >
                 Register Now!
@@ -67,8 +68,10 @@
         
       </p>
       <p class="text-center">
-        <x-alpine.button
-                  class="bg-primary text-white px-6 py-3 rounded-lg cursor-pointer"
+                <x-alpine.button 
+                variant="success"
+                size="xl"
+                  
                   @click="$store.modal.open('admission-enquiry')"
               >
 
